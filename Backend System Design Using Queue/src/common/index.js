@@ -1,5 +1,5 @@
-import Config from "../../config/index.js"
-import devLogger from "./devLogger.js"
+import Config from "../config/index.js"
+import devLogger from "./devLoger.js"
 import prodLogger from "./prodLogger.js"
 
 const { NODE_ENV } = Config
